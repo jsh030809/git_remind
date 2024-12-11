@@ -1,0 +1,20 @@
+1. git init  <-- 이 폴더에 깃을 쓸 수 있음
+2. git add 파일명.c / git add . <-- 기록할 파일을 선택 
+3. git commit -m '메세지' <-- 그 파일을 ㄱ
+     [작업 폴더] - git add - [staging area] -  git commit [repository] 
+4. git status
+5. git log --all --oneline <--commit한 내역 조회
+6. git diff  최근 commit vs 현제파일 차이점 보여줌
+7. git difftool <--시각적으로 보여줌
+    hjkl 방향키 :q or qa 
+    git difftool 커밋 아이디 커밋아이디 <-- 차이 보여줌
+
+branch <-- 프로젝트 복사본
+8.git branch 작명 <--브랜치를 생성해줌
+9.git switch 작명 <-- 브랜치로 이동
+    git status로 위치 확인가능
+10. 작명 파일 만들고 add commit
+11. git switch main <-- or master 로 이동
+12. git merge 작명
+메인과 브랜치에서 똑같이 수정하고 merge하면 충돌일어남
+13. git push 업로드1
